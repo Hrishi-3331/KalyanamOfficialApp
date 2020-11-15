@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254497864319",
+    "firebase_url": "https://kalyanam-f84bf.firebaseio.com",
+    "project_id": "kalyanam-f84bf",
+    "storage_bucket": "kalyanam-f84bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254497864319:android:5e1697a6123d6fd9515d4a",
+        "android_client_info": {
+          "package_name": "com.ethnicindia.omkarmic.kalyanam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254497864319-1k33u9gvb5uq6rn5eqkti2fqnlp14067.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ethnicindia.omkarmic.kalyanam",
+            "certificate_hash": "a29d011c1869412f9ca9ef8133b580db99419611"
+          }
+        },
+        {
+          "client_id": "254497864319-u5f01bogitdsfbub2qdp4pjflbmebhf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-d1eRJIcQ7Cxn_ojoSXdUUEEXaVDJlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254497864319-u5f01bogitdsfbub2qdp4pjflbmebhf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

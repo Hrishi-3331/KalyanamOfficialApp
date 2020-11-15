@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kalyanam</string>
+    <string name="ask_signup">Don\'t have an account? <b>Signup here</b></string>
+    <string name="ask_login">Existing User? <b>Login here</b></string>
+    <string name="home_content">
+        An abundance of grandeur; a mountain of opulence; an attendance of the holy of the holiest. While divine architects and lords prepped the venue, guests from the fourteen worlds committed their presence. A marriage that is larger than life.
+        This was how Lord Venkateshwara’s divine union with Goddess Padmavathi happened centuries ago. It is said that this celestial wedding is like nothing humankind has ever seen. Be a part of this auspicious event virtually.
+    </string>
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</string>
+    <string name="db_name">KALYANAM_APP_DB</string>
+    <string name="contact_message">Drop your message or query here and we\'ll reach out to you. Complaints, suggestions and feedback are all welcome.</string>
+    <string name="message_senr">Our service executive will get back to you soon. Thanks for contacting us.</string>
+    <string name="success">Message Sent Successfully!</string>
+    <string name="ok">Okay</string>
+    <string name="user">user</string>
+    <string name="message">message</string>
+    <string name="subject">subject</string>
+    <string name="customer_care">customer_care</string>
+    <string name="sending_message">Sending Message</string>
+    <string name="request_subject">Please enter the subject</string>
+    <string name="request_message">Please enter your message</string>
+    <string name="customer_care_error">Error in submitting your query. Please try again later.</string>
+    <string name="about_omkarmic">
+        Founded in the year 2006, OmKarmic is driving the mission of creating a world-class trusted platform for seekers of spirituality. In their efforts to encourage peace and religion, OmKarmic has partnered with institutions such as ISKCON and collaborated in projects like Annamrita.
+    </string>
+    <string name="about_omkarmic2">
+        Along with its vast range of spiritual, pooja, and meditation products, OmKarmic is coming up with a one-of-a-kind connected device—the E-mala Rosary. For every purchase made, OmKarmic takes up the responsibility to feed a child through their Annamrita tie-up.
+    </string>
+</resources>

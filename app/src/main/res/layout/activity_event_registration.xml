@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/registration_coordinator"
+    android:layout_height="match_parent"
+    tools:context=".EventRegistration">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_black"
+                android:text="Event Registration"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/calendar"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Event Name :"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:padding="6dp"/>
+
+                <TextView
+                    android:id="@+id/event_registration_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Kalyanam Los Angeles"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/fee"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Reg. Fee:"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:padding="6dp"/>
+
+                <TextView
+                    android:id="@+id/event_registration_fee"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Free"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <TextView
+                android:lineSpacingExtra="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:text="Please fill out the following details to register for this event. After registering for this event you will be able to witness this event live through our app only."
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Name :"
+                android:textColor="@android:color/white"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <LinearLayout
+                android:background="@drawable/light_frame"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/email"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:tint="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"/>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:id="@+id/event_registration_name"
+                    android:layout_width="match_parent"
+                    android:inputType="textPersonName"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@drawable/light_frame"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="City :"
+                android:textColor="@android:color/white"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <LinearLayout
+                android:background="@drawable/light_frame"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/map"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:tint="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"/>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:id="@+id/event_registration_city"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@drawable/light_frame"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Country :"
+                android:textColor="@android:color/white"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <LinearLayout
+                android:background="@drawable/light_frame"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/country"
+                    android:layout_marginRight="10dp"
+                    app:tint="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"/>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:id="@+id/event_registration_country"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@drawable/light_frame"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Mobile No.:"
+                android:textColor="@android:color/white"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <LinearLayout
+                android:background="@drawable/light_frame"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/mobile"
+                    android:layout_marginRight="10dp"
+                    app:tint="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"/>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:id="@+id/event_registration_mobile"
+                    android:inputType="phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@drawable/light_frame"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/event_registration_statement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:padding="12dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Registrations open !"/>
+
+            <Button
+                android:id="@+id/event_registration_button"
+                android:onClick="registerUser"
+                android:elevation="0dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Register"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@color/yogaAccent"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/event_registration_premium_button"
+                android:onClick="buyPremium"
+                android:elevation="0dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Buy Premium Thalis"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@color/yogaAccent"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
